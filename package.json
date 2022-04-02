@@ -1,0 +1,31 @@
+{
+  "name": "movie-quote-bot",
+  "version": "1.0.0",
+  "description": "twitter bot that tweets random quotes from movies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NabidKabir/movie-quote-bot.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "heroku",
+    "promise",
+    "quote"
+  ],
+  "author": "Nabid Kabir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NabidKabir/movie-quote-bot/issues"
+  },
+  "homepage": "https://github.com/NabidKabir/movie-quote-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "movie-quotes": "^1.0.1",
+    "twitter-api-v2": "^1.11.2"
+  }
+}
